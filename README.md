@@ -12,6 +12,9 @@ A lightweight API that provides real-time price data for a Stellar token in both
 ## Installation
 
 1. Clone the repository
+    ```
+    git clone https://github.com/zaber-dev/Stellar-Price-API
+    ```
 2. Install the required dependencies:
    ```
    pip install -r requirements.txt
