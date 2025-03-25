@@ -104,7 +104,7 @@ def fetch_price():
 
 threading.Thread(target=fetch_price, daemon=True).start()
 
-@app.route("/price", methods=["GET"])
+@app.route("/", methods=["GET"])
 def get_price():
     return jsonify(token_price)
 
