@@ -1,0 +1,4 @@
+flask
+requests
+stellar-sdk
+python-dotenv
